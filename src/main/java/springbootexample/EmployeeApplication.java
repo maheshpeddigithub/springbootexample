@@ -9,7 +9,6 @@ public class EmployeeApplication {
 
     public static void main(String[] args) {
         ApplicationContext ctx = SpringApplication.run(EmployeeApplication.class, args);
-        System.out.println(ctx.getApplicationName());
     }
 
 }
